@@ -1,0 +1,17 @@
+.heading-cpn {
+    position: relative;
+    &::before {
+        position: absolute;
+        left: 0;
+        content: "";
+        background: $orange-cl;
+        @include size(5px, 100%);
+    }
+    span {
+        font-size: 21px;
+        font-weight: 600;
+        color: $green-cl;
+        margin-left: 12px;
+        text-transform: uppercase;
+    }
+}
