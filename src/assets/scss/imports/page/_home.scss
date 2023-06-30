@@ -95,28 +95,9 @@
                                 margin: 15px 0 30px;
                             }
                             .btn-more {
-                                padding: 8px 15px;
-                                background: $green-cl;
-                                color: $white-cl;
-                                font-size: 17px;
-                                font-family: math;
-                                display: flex;
-                                align-items: center;
-                                gap: 10px;
-                                width: max-content;
-                                margin: 0 auto;
-                                transition: 0.4s;
-                                border: 1px solid $green-cl;
-                                svg {
-                                    font-size: 13px;
-                                }
-                                &:hover {
-                                    transform: 0.4s;
-                                    background: $white-cl;
-                                    color: $green-cl;
-                                    svg {
-                                        fill: $green-cl;
-                                    }
+                                span {
+                                    display: inline-block;
+                                    width: max-content;
                                 }
                             }
                         }
@@ -231,6 +212,33 @@
                             grid-column: unset;
                             grid-row: unset;
                             grid-template-columns: 1fr;
+                            .content {
+                                .btn-more {
+                                    padding: 8px 20px;
+                                    background: $green-cl;
+                                    color: $white-cl;
+                                    font-size: 17px;
+                                    font-family: math;
+                                    display: flex;
+                                    align-items: center;
+                                    gap: 10px;
+                                    width: max-content;
+                                    margin: 0 auto;
+                                    transition: 0.4s;
+                                    border: 1px solid $green-cl;
+                                    svg {
+                                        font-size: 13px;
+                                    }
+                                    &:hover {
+                                        transform: 0.4s;
+                                        background: $white-cl;
+                                        color: $green-cl;
+                                        svg {
+                                            fill: $green-cl;
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
