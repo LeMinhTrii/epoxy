@@ -281,6 +281,22 @@
     }
     @media (max-width: $xs-max) {
         // Mobile
+        &_content {
+            &-box {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px 0;
+                .left {
+                    .logo {
+                        width: 100px;
+                    }
+                }
+            }
+            &-hamburger {
+                right: 15px;
+            }
+        }
     }
 }
 

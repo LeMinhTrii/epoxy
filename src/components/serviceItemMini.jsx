@@ -10,7 +10,7 @@ export default function ServiceItemMini({ name }) {
         />
       </div>
       <div className="content">
-        <p className="name">Thi công sơn epoxy ở Đồng Tháp</p>
+        <p className="name">{name}</p>
         <div className="plus">
           <svg
             xmlns="http://www.w3.org/2000/svg"

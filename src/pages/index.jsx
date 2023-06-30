@@ -148,11 +148,11 @@ export default function Home() {
                 <div className="box">
                   <ServiceItem name="Thi công sơn epoxy ở Bình Dương" />
                   <div className="list">
-                    <ServiceItemMini />
-                    <ServiceItemMini />
-                    <ServiceItemMini />
-                    <ServiceItemMini />
-                    <ServiceItemMini />
+                    <ServiceItemMini name="Thi công sơn epoxy ở Đồng Tháp" />
+                    <ServiceItemMini name="Thi công sơn epoxy ở Củ Chi" />
+                    <ServiceItemMini name="Thi công sơn epoxy ở Sài Gòn" />
+                    <ServiceItemMini name="Thi công sơn epoxy ở Sài Gòn" />
+                    <ServiceItemMini name="Thi công sơn epoxy ở Sài Gòn" />
                   </div>
                 </div>
               </div>
